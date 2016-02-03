@@ -187,6 +187,8 @@ dc.heatMap = function (parent, chartGroup) {
     };
 
     _chart._doRender = function () {
+        _chart.resetSvg();
+
         _chartBody = _chart.svg()
             .append('g')
             .attr('class', 'heatmap')
@@ -398,3 +400,4 @@ dc.heatMap = function (parent, chartGroup) {
 
     return _chart.anchor(parent, chartGroup);
 };
+Status API Training Shop Blog About Pricing
