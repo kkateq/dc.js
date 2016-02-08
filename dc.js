@@ -10026,7 +10026,7 @@ dc.heatMap = function (parent, chartGroup) {
         _chartBody = _chart.svg()
             .append('g')
             .attr('class', 'heatmap')
-            .attr('transform', 'translate(' + _chart.margins().left + ',' + _chart.margins().top + ')');
+            .attr('transform', 'translate(' + (40 + _chart.margins().left) + ',' + (_chart.margins().top - 5) + ')');
 
         return _chart._doRedraw();
     };
