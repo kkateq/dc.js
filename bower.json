@@ -12,8 +12,6 @@
     "d3"
   ],
   "ignore": [
-    "*",
-    "!dc.*",
     "!LICENSE",
     "!README.md"
   ],
